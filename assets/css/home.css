@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: darkslategrey;
+    
+}
+#page-heading{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#contact-list-container
+{
+    padding:0;
+    list-style:none;
+     margin:auto;
+     width: 40%;
+     
+}
+
+
+
+.contact
+{
+    padding:3px 10px;
+    border: 1px solid white;
+    background-color: rgb(65, 225, 161);
+    box-shadow: 1px 1px 1px 1px lightsalmon;
+    color: black;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+}
+
+.contact .details
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact .delete-button
+{
+    text-align: center;
+    margin:3px;
+    padding: 3px;
+    
+}
+
+.contact .delete-button a
+{
+    color:black;
+    background-color: red;
+    padding: 3px 3px;
+    
+    
+}
+.contact p
+{
+    margin:5px 0;
+}
+/* ul li{
+    list-style-type: none;
+    margin: 5px 0;
+    background-color: rgb(88, 88, 177);
+    padding: 5px 5px;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+     
+} */
+
+/* ul li:hover
+{
+    list-style-type: none;
+    margin: 5px 0;
+    background-color: rgb(161, 134, 134);
+    padding: 5px 5px;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+} */
+
+/* .main-contact{
+    
+    margin: auto;
+    width: 30%;
+    
+} */
+
+.contact-form
+{
+    margin:25px 430px;
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+
+    
+}
+
+input, button
+{
+     
+    padding: 6px 6px;
+    display: flex;
+     
+     color: brown;
+     font-weight: bold;
+     border-radius: 8px;
+     background-color: darkgrey;
+}
+
+button
+{
+    background-color: rgb(57, 163, 57);
+    color:black;
+}
+
+input
+{
+    border-width: 0px 0px 3px 0px;
+}
